@@ -2,7 +2,7 @@
 #postcom {padding-left: 10px;padding-bottom: 30px;}
 #postcom label {margin-top: 5px;}
 .infos input, textarea.commentaire {border: 1px solid gray;}
-textarea.commentaire {width: 98%;padding: 1%;height: 200px;border-radius: 0 0 5px 5px;-moz-border-radius: 0 0 5px 5px; -webkit-border-radius: 0 0 5px 5px;border-top-width: 0;}
+textarea.commentaire {width: 98%;padding: 1%;height: 200px;border-radius: 0 0 5px 5px;border-top-width: 0;}
 .formatbut input, .infos input {display: inline;min-width: 26px;}
 .formatbut .pm {float: right;}
 /* Boutons de formatage  */
@@ -10,8 +10,6 @@ p.formatbut {
 	border: 1px solid #9999a3;
 	border-bottom: 0;
 	border-radius: 5px 5px 0 0;
-		-moz-border-radius:  5px 5px 0 0;
-		-webkit-border-radius:  5px 5px 0 0;
 	width: 98%;
 	height: 30px;
 	line-height: 28px;
@@ -33,11 +31,8 @@ p.formatbut {
 	width: 24px;
 	border: 1px solid transparent;
 	border-radius: 4px;
-		-moz-border-radius: 4px;
-		-webkit-border-radius: 4px;
 }
-.formatbut button:hover {border-color: silver;}
-.formatbut button:active {
+.formatbut button:hover, .formatbut button:active {
 	border-color: gray;
 	background-color: rgba(0, 0, 0, 0);
 	background: #cde6ff;
